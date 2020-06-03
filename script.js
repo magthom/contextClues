@@ -1,6 +1,6 @@
-var friends = ["anna", "madelyn", "lucie", "garrett"];
-var locations = ["home", "ATL", "pigglyWiggly", "ireland", "outside","saks", "tjTower", "sugarShack", "hell", "venus"];
-var weapons = ["rock", "paper", "scissors", "litterBox", "potato", "firstGenerationIphone", "2012MacbookPro", "disposableCamera", "oneBirkenstock", "4ThousandFeathers", "alexa", "tikTokDanceMoves", "juulPod", "whatMomGotYouForXmas", "gasCap", "glassCleaner", "insultingGestures", "contextClues", "professionalDevelopment", "candleStick"];
+var friends = ["junie", "madelyn", "lucie", "salem", "maggie"];
+var locations = ["my car", "a hut", "piggly wiggly", "ireland", "crazy caz boys", "saks", "dollar tree", "sugar shack", "hell", "a UFO"];
+var weapons = ["rock", "paper", "scissors", "litter box", "potato", "firstGenerationIphone", "2012MacbookPro", "disposableCamera", "oneBirkenstock", "4ThousandFeathers", "alexa", "tikTokDanceMoves", "juulPod", "whatMomGotYouForXmas", "gasCap", "glassCleaner", "insultingGestures", "contextClues", "professionalDevelopment", "candleStick"];
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -15,6 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function alertDetails(i) {
     return function () {
-    alert(`Accusation ${i}: I accuse ${friends[i % friends.length]}, with the ${weapons[i % weapons.length]} in the ${locations[i % locations.length]}`);
+    alert(`Accusation ${i}: I accuse ${friends[i % friends.length]}, with the ${weapons[i % weapons.length]} in ${locations[i % locations.length]}`);
     }
 }
